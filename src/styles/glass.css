@@ -39,12 +39,14 @@
   justify-content: center;
   gap: 8px;
   padding: 10px 20px;
+  min-height: 44px;
   border-radius: var(--radius-full);
   font-size: 0.92rem;
   font-weight: 600;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
   transition: all var(--transition-fast);
 }
@@ -86,6 +88,7 @@
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .glass-pill-gold {
@@ -110,17 +113,20 @@
   position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .glass-input {
   width: 100%;
+  min-height: 44px;
   padding: 10px 16px 10px 40px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-full);
-  font-size: 0.9rem;
+  font-size: 16px;
   outline: none;
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   transition: all var(--transition-fast);
 }
 

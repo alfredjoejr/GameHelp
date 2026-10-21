@@ -1,6 +1,6 @@
 import { puzzleGuides } from '../data/hogwartsPuzzles.js';
 import { getState, setState, openModal } from '../state/store.js';
-import { renderArithmancySolver } from './arithmancySolver.js';
+import { renderArithmancySolver } from './arithmancy/index.js';
 import { renderChecklistView } from './checklistView.js';
 import { renderSpellCodex } from './spellCodex.js';
 
