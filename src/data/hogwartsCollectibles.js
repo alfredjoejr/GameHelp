@@ -1,0 +1,200 @@
+export const collectiblesList = [
+  {
+    id: "demiguise-faculty-tower",
+    title: "Demiguise Statue - Faculty Tower",
+    category: "Demiguise",
+    region: "Hogwarts Castle",
+    location: "South Wing Faculty Tower, Gladwin Moon quarters",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Required during 'The Caretaker's Lunar Lament' quest. Change time to night in the map menu.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-divination-classroom",
+    title: "Demiguise Statue - Divination Classroom",
+    category: "Demiguise",
+    region: "Hogwarts Castle",
+    location: "Top of the ladder spiral staircase, Professor Onai desk",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Climb the wooden ladder into the attic classroom and check the back desk.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-potions-classroom",
+    title: "Demiguise Statue - Potions Storage",
+    category: "Demiguise",
+    region: "Hogwarts Castle",
+    location: "Through the locked side door near Sharp's classroom",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Unlock the gate and proceed along the narrow stone corridor to the desk.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-great-hall",
+    title: "Demiguise Statue - Great Hall Corner",
+    category: "Demiguise",
+    region: "Hogwarts Castle",
+    location: "Locked room in the southeast corner behind the High Table",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Turn right after entering the Great Hall; pick the level 1 lock.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-tomes-scrolls",
+    title: "Demiguise Statue - Tomes & Scrolls",
+    category: "Demiguise",
+    region: "Hogsmeade",
+    location: "Behind Thomas Brown's counter in the back bedroom",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Walk past the counter and behind the folding privacy screen.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-three-broomsticks",
+    title: "Demiguise Statue - Three Broomsticks Loft",
+    category: "Demiguise",
+    region: "Hogsmeade",
+    location: "Top floor private room above Sirona's tavern",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Ascend all flight of stairs to the very attic door.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-hog-head",
+    title: "Demiguise Statue - Hog's Head Storage",
+    category: "Demiguise",
+    region: "Hogsmeade",
+    location: "Back storage room behind the bar counter",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Head behind the barkeep into the adjacent crate room.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-brocburrow",
+    title: "Demiguise Statue - Brocburrow Cottage",
+    category: "Demiguise",
+    region: "The Highlands",
+    location: "North of the central fountain in a thatched roof cottage",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Check the bedside table inside the small cottage.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "demiguise-keenbridge",
+    title: "Demiguise Statue - Keenbridge Residence",
+    category: "Demiguise",
+    region: "The Highlands",
+    location: "House with clothes hanging outside near the river",
+    nightOnly: true,
+    alohomoraLevel: 1,
+    tip: "Unlock the wooden door; statue rests on a small shelf near the kitchen.",
+    reward: "Alohomora Upgrade Progress"
+  },
+  {
+    id: "daedalian-astronomy-tower",
+    title: "Daedalian Key - Astronomy Tower",
+    category: "Daedalian Key",
+    region: "Hogwarts Castle",
+    location: "Floo Flame staircase ascending toward the top platform",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Follow key down into the classroom with the planetary globes. Slap key when crossing keyhole.",
+    reward: "House Token (1 of 16)"
+  },
+  {
+    id: "daedalian-central-hall",
+    title: "Daedalian Key - Central Hall Fountain",
+    category: "Daedalian Key",
+    region: "Hogwarts Castle",
+    location: "Near the greenhouse exit stairs in Central Hall",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Key leads toward the Potions staircase cabinet.",
+    reward: "House Token (2 of 16)"
+  },
+  {
+    id: "daedalian-library",
+    title: "Daedalian Key - Library Annex",
+    category: "Daedalian Key",
+    region: "Hogwarts Castle",
+    location: "Between bookshelves on the main floor near central desk",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Guides you straight to the cabinet beside the portrait archway.",
+    reward: "House Token (3 of 16)"
+  },
+  {
+    id: "daedalian-quad-courtyard",
+    title: "Daedalian Key - Quad Courtyard",
+    category: "Daedalian Key",
+    region: "Hogwarts Castle",
+    location: "Archway leading down to the boathouse path",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Flies to the cabinet under the stone arch staircase.",
+    reward: "House Token (4 of 16)"
+  },
+  {
+    id: "eye-chest-library-annex",
+    title: "Disillusionment Eye Chest - Library Balcony",
+    category: "Eye Chest",
+    region: "Hogwarts Castle",
+    location: "Upper floor overlooking Central Hall",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Cast Disillusionment while out of the eye's viewcone, then sneak up and press open.",
+    reward: "500 Galleons"
+  },
+  {
+    id: "eye-chest-hogsmeade-bridge",
+    title: "Disillusionment Eye Chest - Hogsmeade Mill Bridge",
+    category: "Eye Chest",
+    region: "Hogsmeade",
+    location: "Beneath the stone watermill bridge near the northern edge",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Activate stealth before stepping onto the wooden boardwalk.",
+    reward: "500 Galleons"
+  },
+  {
+    id: "eye-chest-gladrags",
+    title: "Disillusionment Eye Chest - Gladrags Alley",
+    category: "Eye Chest",
+    region: "Hogsmeade",
+    location: "Narrow alleyway between Gladrags and Dervish & Banges",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Cast Disillusionment on the street, then duck into the alley.",
+    reward: "500 Galleons"
+  },
+  {
+    id: "ancient-magic-forbidden-forest",
+    title: "Ancient Magic Hotspot - West Forbidden Forest",
+    category: "Ancient Magic",
+    region: "The Highlands",
+    location: "Ruined stone tower overrun by Thornback spiders",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Clear the webs with Incendio. Collect the 3 floating purple traces via high wooden beam.",
+    reward: "+1 Ancient Magic Meter Segment"
+  },
+  {
+    id: "ancient-magic-keenbridge-ruins",
+    title: "Ancient Magic Hotspot - Keenbridge River Castle",
+    category: "Ancient Magic",
+    region: "The Highlands",
+    location: "Crumbling tower on the hillside southwest of town",
+    nightOnly: false,
+    alohomoraLevel: 0,
+    tip: "Pull loose blocks with Accio to form stepping platforms to the highest trace.",
+    reward: "+1 Ancient Magic Meter Segment"
+  }
+];
